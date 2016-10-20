@@ -11,15 +11,19 @@ This is the instruction and links to the repository for the World of Watson LAB-
 ### Step 3 - Register devicestype and devices:
 
 #### for cardashboard 
-a. deviceType : "watson"
-b. deviceId : "speech"
-Note down your tocken and iot org
+- deviceType : "watson"
+- deviceId : "speech"
 
-- Update date and deploy your code
+Note down your token and iot org
+
+- Update date and deploy your code (file app.js and ui/api.js with the node-red instance name
+
 
 #### for airfreshener 
-deviceType : "watson"
-deviceId : "airfreshener"
+- deviceType : "watson"
+- deviceId : "airfreshener"
+
+Note down your token and iot org
 
 ### Step 4 - Logon to particle.io 
 Deploy you [code](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/particle/airfreshener.json)
