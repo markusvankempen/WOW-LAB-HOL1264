@@ -6,10 +6,11 @@ This is the instruction and links to the repository for the World of Watson LAB-
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
 
 ### Step 2 - Configure Watson Conversation
+#### Launch the Watson Conversation service and import
 - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
 
-### Step 3 - Register devicestype and devices:
-
+### Step 3 - Register devicestype and devices in the IoT Platform /Service
+#### Launch the iot service 
 #### for cardashboard 
 - deviceType : "watson"
 - deviceId : "speech"
