@@ -8,9 +8,12 @@
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
 Make sure you can launch both applications from Dashboard
 ### Step 2 - Configure Watson Conversation
+- 
 #### Launch the Watson Conversation service and import
-- [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
-- Test the conversation on the Dashboard
+ - Save the json file to your desktop - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
+ - Next go to watson conversation service and click "Launch" 
+ - Import the json file you saved to your desktop
+ - Test the conversation on the Dashboard
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
 #### Launch the iot service 
 #### for cardashboard 
