@@ -1,14 +1,16 @@
 # WOW-LAB-HOL1264 - mvk@ca.ibm.com
 This is the instruction and links to the repository for the World of Watson LAB-HOL1264
+user: WOWHOL1264txx@gmail.com - (xx is the team number 01-10)
+pass: @WOWHOL1264
 
 ### Step 1 - Deploy CarDashboard and Node-RED
 - [CarDashboard](https://github.com/markusvankempen/WowHol1264-CarDash)
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
-
+Make sure you can launch both applications from Dashboard
 ### Step 2 - Configure Watson Conversation
 #### Launch the Watson Conversation service and import
 - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
-
+- Test the conversation on the Dashboard
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
 #### Launch the iot service 
 #### for cardashboard 
@@ -17,8 +19,9 @@ This is the instruction and links to the repository for the World of Watson LAB-
 
 Note down your token and iot org
 
-- Update date and deploy your code (file app.js and ui/api.js with the node-red instance name
-
+- Update date and deploy your code:
+- Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
+- Next, find the file: ui/js/api.js adjust the line of code which points to the name of your node-red instance (ie. var wsUri = 'ws://yourhostnamehere.mybluemix.net/toCarDashboard';)
 
 #### for airfreshener 
 - deviceType : "watson"
