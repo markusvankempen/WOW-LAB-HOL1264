@@ -21,6 +21,7 @@ Make sure you can launch both applications from Dashboard
  - Paste the workspace ID into the value field and click save
  - Test the conversation on the Dashboard
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
+
 #### Launch the iot service 
 #### for cardashboard 
 - deviceType : "watson"
@@ -28,15 +29,14 @@ Make sure you can launch both applications from Dashboard
 
 Note down your token and iot org ID
 
-- Update date and deploy your code:
-- Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
-- Next, find the file: ui/js/api.js adjust the line of code which points to the name of your node-red instance (ie. var wsUri = 'ws://yourhostnamehere.mybluemix.net/toCarDashboard';)
-
 #### for airfreshener 
 - deviceType : "watson"
 - deviceId : "airfreshener"
 
 Note down your token and iot org ID
+- Update date and deploy your code by:
+- Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
+- Next, find the file: ui/js/api.js adjust the line of code which points to the name of your node-red instance (ie. var wsUri = 'ws://yourhostnamehere.mybluemix.net/toCarDashboard';)
 
 ### Step 4 - Logon to particle.io 
 Deploy you [code](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/particle/airfreshener.json)
