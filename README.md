@@ -31,7 +31,7 @@
 #### Note down your token and iot org ID
 
 #### for airfreshener 
-- deviceType : "watson"
+- deviceType : "photon"
 - deviceId : "airfreshener"
 
 Note down your token and iot org ID
