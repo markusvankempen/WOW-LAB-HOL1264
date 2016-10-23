@@ -16,7 +16,7 @@ Make sure you can launch both applications from Dashboard
  - Click on the upper right corner of the dashboard card (thre dots, actions) 
  - Click "View Details"
  - Copy the Workspace ID
- - Go to Car Dashboard Application, 
+ - Go to Car Dashboard Application, click the Dashboard App (not the URL) 
  - Click Runtime and create User Defined Value at the bottom called "Workspace ID" no quotes 
  - Paste the workspace ID into the value field and click save
  - Test the conversation on the Dashboard
@@ -38,7 +38,14 @@ Note down your token and iot org ID
 - Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
 - Next, find the file: ui/js/api.js adjust the line of code which points to the name of your node-red instance (ie. var wsUri = 'ws://yourhostnamehere.mybluemix.net/toCarDashboard';)
 
-### Step 4 - Logon to particle.io 
+### Step 4 - Logon to particle.io  - https://build.particle.io/login
+- Click on "Devices" near the bottom left
+- Find the device called: Photon WOWHOL1264TXX
+- Paste the Token and Org ID you copied earlier, into the ORG and Token sections in the code, where the comment states "Needs Adjustment"
+- Click the folder icon near the top left of the page, to save
+- NOTE: Please DO NOT deploy until you add this token and org ID.
+- Add app to particle
+
 Deploy you [code](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/particle/airfreshener.json)
 
 ### Step 5 - Update the Photon code
