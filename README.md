@@ -6,7 +6,7 @@
 ### Step 1 - Deploy CarDashboard and Node-RED
 - [CarDashboard](https://github.com/markusvankempen/WowHol1264-CarDash)
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
-Make sure you can launch both applications from Dashboard
+- Make sure you can launch both applications from Dashboard
 ### Step 2 - Configure Watson Conversation
 - Save the json file to your desktop - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
  - Next go to watson conversation service and click "Launch" 
@@ -20,6 +20,7 @@ Make sure you can launch both applications from Dashboard
  - Click Runtime and create User Defined Value at the bottom called "Workspace ID" no quotes 
  - Paste the workspace ID into the value field and click save
  - Test the conversation on the Dashboard
+ - Restart the app
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
 
 #### Launch the iot service 
@@ -27,7 +28,7 @@ Make sure you can launch both applications from Dashboard
 - deviceType : "watson"
 - deviceId : "speech"
 
-Note down your token and iot org ID
+#### Note down your token and iot org ID
 
 #### for airfreshener 
 - deviceType : "watson"
