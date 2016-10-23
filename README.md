@@ -8,11 +8,17 @@
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
 Make sure you can launch both applications from Dashboard
 ### Step 2 - Configure Watson Conversation
-- 
-#### Launch the Watson Conversation service and import
- - Save the json file to your desktop - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
+- Save the json file to your desktop - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
  - Next go to watson conversation service and click "Launch" 
  - Import the json file you saved to your desktop
+#### Launch the Watson Conversation service and import
+ - Launch conversation service again from Dashboard
+ - Click on the upper right corner of the dashboard card (thre dots, actions) 
+ - Click "View Details"
+ - Copy the Workspace ID
+ - Go to Car Dashboard Application, 
+ - Click Runtime and create User Defined Value at the bottom called "Workspace ID" no quotes 
+ - Paste the workspace ID into the value field and click save
  - Test the conversation on the Dashboard
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
 #### Launch the iot service 
@@ -20,7 +26,7 @@ Make sure you can launch both applications from Dashboard
 - deviceType : "watson"
 - deviceId : "speech"
 
-Note down your token and iot org
+Note down your token and iot org ID
 
 - Update date and deploy your code:
 - Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
@@ -30,7 +36,7 @@ Note down your token and iot org
 - deviceType : "watson"
 - deviceId : "airfreshener"
 
-Note down your token and iot org
+Note down your token and iot org ID
 
 ### Step 4 - Logon to particle.io 
 Deploy you [code](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/particle/airfreshener.json)
