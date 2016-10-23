@@ -17,8 +17,8 @@
  - Click "View Details"
  - Copy the Workspace ID
  - Go to Car Dashboard Application, click the Dashboard App (not the URL) 
- - Click Runtime and create User Defined Value at the bottom called "Workspace ID" no quotes 
- - Paste the workspace ID into the value field and click save
+ - Click Runtime and create User Defined Value at the bottom called "WORKSPACE_ID" no quotes 
+ - Paste the WORKSPACE_ID into the value field and click save
  - Test the conversation on the Dashboard
  - Restart the app
 ### Step 3 - Register devicestype and devices in the IoT Platform /Service
