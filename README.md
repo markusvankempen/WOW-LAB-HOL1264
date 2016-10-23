@@ -35,7 +35,7 @@
 - deviceId : "airfreshener"
 
 Note down your token and iot org ID
-- Update date and deploy your code by:
+#### Update date and deploy your code by:
 - Go to Bluemix Dashboard, then select Edit Code, find the file: app.js and update with CarDashboard API Token and Orj ID
 - Next, find the file: ui/js/api.js adjust the line of code which points to the name of your node-red instance (ie. var wsUri = 'ws://yourhostnamehere.mybluemix.net/toCarDashboard';)
 
@@ -45,12 +45,19 @@ Note down your token and iot org ID
 - Paste the Token and Org ID you copied earlier, into the ORG and Token sections in the code, where the comment states "Needs Adjustment"
 - Click the folder icon near the top left of the page, to save
 - NOTE: Please DO NOT deploy until you add this token and org ID.
-- Add app to particle
+- Add app to particle - create new app called airfreshener, then use this app
 
 Deploy you [code](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/particle/airfreshener.json)
 
-### Step 5 - Update the Photon code
-
+### Step 5 - Update the Photon code 
+ 
 ### Step 6 / Extra - add feedback and context to Watson Conversation 
+
+### Step 7 Connect you photon by using the following pin to wire schematic
+ - Green wire = D6 pin
+ - Blue wire = D4 pin
+ - Yellow wire = A0 pin
+ - Red wire = VIN pin
+ - Black wire = GND pin
 
 ### Extra B -Create a Node-Red-Dashboard
