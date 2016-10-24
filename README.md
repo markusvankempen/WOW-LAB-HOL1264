@@ -7,10 +7,12 @@
 - [CarDashboard](https://github.com/markusvankempen/WowHol1264-CarDash)
 - [Node-RED](https://github.com/markusvankempen/WoWHoL1264-Node-RED)
 - Make sure you can launch both applications from Dashboard
+
 ### Step 2 - Configure Watson Conversation
 - Save the json file to your desktop - [json file](https://raw.githubusercontent.com/markusvankempen/WowHol1264-CarDash/master/training/airfreshener.json)
  - Next go to watson conversation service and click "Launch" 
  - Import the json file you saved to your desktop
+ 
 #### Launch the Watson Conversation service and import
  - Launch conversation service again from Dashboard
  - Click on the upper right corner of the dashboard card (thre dots, actions) 
