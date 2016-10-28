@@ -1,7 +1,7 @@
 # WOW-LAB-HOL1264 - mvk@ca.ibm.com
 - This is the instruction and links to the repository for the World of Watson LAB-HOL1264
 - user: WOWHOL1264txx@gmail.com - (xx is the team number 01-10)
-- pass: @WOWHOL1264 for all accounts (particle, bluemix and gmail)
+- pass: @???????? for all accounts (particle, bluemix and gmail)
 
 ### Step 1 - Deploy CarDashboard and Node-RED
 - [CarDashboard](https://github.com/markusvankempen/WowHol1264-CarDash)
